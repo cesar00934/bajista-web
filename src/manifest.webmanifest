@@ -4,7 +4,7 @@
   "description": "Bajista profesional independiente en Huacho.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#070a10",
-  "theme_color": "#070a10",
+  "background_color": "#187ca7",
+  "theme_color": "#187ca7",
   "icons": [{"src":"assets/favicon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
 }
