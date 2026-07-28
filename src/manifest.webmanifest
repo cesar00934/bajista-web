@@ -1,0 +1,10 @@
+{
+  "name": "Oscar Arce - Bajista profesional",
+  "short_name": "Oscar Arce",
+  "description": "Bajista profesional independiente en Huacho.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070a10",
+  "theme_color": "#070a10",
+  "icons": [{"src":"assets/favicon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
