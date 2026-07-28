@@ -8,7 +8,7 @@ await rm(dist, { recursive: true, force: true });
 await mkdir(dist, { recursive: true });
 await cp(src, dist, { recursive: true });
 
-const rawUrl = process.env.SITE_URL || process.env.VERCEL_PROJECT_PRODUCTION_URL || process.env.VERCEL_URL || 'http://localhost:3000';
+const rawUrl = process.env.SITE_URL || process.env.VERCEL_PROJECT_PRODUCTION_URL || process.env.VERCEL_URL || 'https://oscar-arce-bajista-huacho.vercel.app';
 const siteUrl = rawUrl.startsWith('http') ? rawUrl.replace(/\/$/, '') : `https://${rawUrl.replace(/\/$/, '')}`;
 const isProduction = process.env.VERCEL_ENV === 'production' || Boolean(process.env.SITE_URL);
 
